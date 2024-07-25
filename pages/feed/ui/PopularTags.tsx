@@ -16,7 +16,7 @@ export const PopularTags = () => {
             <button
               key={tag}
               name="tag"
-              value="tag"
+              value={tag}
               className="tag-pill tag-default"
             >
               {tag}
